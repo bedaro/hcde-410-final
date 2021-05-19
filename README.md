@@ -23,3 +23,19 @@ PDO history: https://www.ncdc.noaa.gov/teleconnections/pdo/
 
 PDO data was downloaded from the above website. For each month and year from
 1854 through early 2021, the PDO index is given.
+
+# Using the Notebooks
+
+The notebooks were developed iteratively to work on one data set at a time,
+but each can still be run all at once as long as they are run in the correct
+order, as listed below:
+
+* **FetchClimateData.ipynb** downloads the raw climate data files from NOAA
+  for each collection of stations and years.
+* **ProcessClimateData.ipynb** reads all of the raw ISD-Lite climate data files
+  and builds a Pandas DataFrame, saved to a compressed HDF file, for each
+  station/year collection.
+* **AnalyzeAllStationsSince1980.ipynb** examines the complete data set of all
+  available climate stations since 1980, determining which stations have data
+  available for which years. The findings here were then used to design the
+  other data sets.
