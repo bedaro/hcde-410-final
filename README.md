@@ -6,6 +6,23 @@ to assess the range of winds that should be considered in Puget Sound water
 quality models, and how the limitations and uncertainties in this data might
 contribute to model uncertainty.
 
+# Abstract
+
+Winds are a potentially significant but limited and poorly understood
+parameter in the Salish Sea Model, a water quality model for the Puget Sound
+in Washington. Historical observations of wind speed and direction from NOAA's
+National Centers for Environmental Information were broken into two
+datasets--one with 16 separate stations with data between 2008 and 2020; the
+other with six stations between 1975 and 2020--and analyzed to better
+understand how winds vary with location and time in the region beyond the
+three calibration years of the model. The data show a strong seasonal pattern
+and preferential direction. Winds may be strengthened during the extreme
+Pacific cool phase of the Pacific Decadal Oscillation. Despite generally low
+wind speeds in the summer, several years for which the model was not
+calibrated show short-term summer events with elevated winds. All of these
+findings will be used to design a wind sensitivity analysis of the Salish Sea
+Model.
+
 # Data Sources
 
 Hourly wind speed and direction: ISD-Lite https://www.ncdc.noaa.gov/isd
@@ -15,7 +32,7 @@ Direct downloads from this FTP site: ftp://ftp.ncei.noaa.gov/pub/data/noaa/isd-l
 ENSO history: https://origin.cpc.ncep.noaa.gov/products/analysis_monitoring/ensostuff/ONI_v5.php
 
 ENSO data was manually copied/pasted into a CSV, ending in 2020. For each
-month of each year, the Oceanic Nino Index (ONI) is given as a three-month
+month of each year, the Oceanic Niño Index (ONI) is given as a three-month
 smoothed average.
 
 PDO history: https://www.ncdc.noaa.gov/teleconnections/pdo/
