@@ -43,7 +43,7 @@ PDO data was downloaded from the above website. For each month and year from
 ## Licensing of Data
 
 All of the above data is from NOAA/National Weather Service. The following
-(disclaimer)[https://www.weather.gov/disclaimer] is attached:
+[disclaimer](https://www.weather.gov/disclaimer) is attached:
 
 > The information on National Weather Service (NWS) Web pages are in the
 > public domain, unless specifically noted otherwise, and may be used without
