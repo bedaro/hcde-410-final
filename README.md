@@ -89,5 +89,6 @@ All of the above data is from NOAA/National Weather Service. The following
   for each collection of stations and years, cleans up the data, does some
   preliminary analysis on data availability to identify the stations and
   years of interest, then saves the observations for each dataset to separate
-  files.
+  files. The output files from this notebook are included in the repository,
+  so to replicate the analysis it is not necessary to re-run it.
 * **DatasetAnalysis.ipynb** is the full writeup and analysis of the datasets.
