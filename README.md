@@ -73,4 +73,4 @@ All of the above data is from NOAA/National Weather Service. The following
   preliminary analysis on data availability to identify the stations and
   years of interest, then saves the observations for each dataset to separate
   files.
-* **DatasetStats.ipynb** is the full writeup and analysis of the datasets.
+* **DatasetAnalysis.ipynb** is the full writeup and analysis of the datasets.
